@@ -1,0 +1,66 @@
+/* styles.css */
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Opcional: agrega un fondo blanco para el encabezado */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center;
+    padding: 10px 0; /* Ajusta el espaciado superior e inferior */
+    z-index: 100; /* Asegura que el encabezado esté en la parte superior */
+}
+ 
+    
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.body-container {
+    text-align: justify; /* Justifica el texto dentro del contenedor */
+    max-width: 1024px; /* Limita el ancho del contenedor al valor deseado */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    font-size: 19.6px;
+    font-family: 'Lora', sans-serif; /* Aplica Albert Sans al contenedor del cuerpo */
+    color: #333333;
+}
+
+.body-title {
+
+    text-align: center; /* Justifica el texto dentro del contenedor */
+    max-width: 1024px; /* Limita el ancho del contenedor al valor deseado */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    font-size:  42px;
+    font-family: 'Lora', sans-serif; /* Aplica Albert Sans al contenedor del cuerpo */
+    color: #333333;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.footer-ads {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
